@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         UGH Kick
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Make Twitch play Kick's livestream.
 // @author       Someone
 // @match        *://twitch.tv/xqc
@@ -70,9 +70,13 @@
         }
 
         const btn = document.createElement("button")
-        btn.type = "button"
-        btn.innerText = "Load Kick"
-        btn.id = "load-kick"
+        btn.classList.add('load-kick');
+        btn.innerHTML = `<svg height="20" viewBox="0 -8 85 33">
+<path d="M0 0H8.26393V5.71333H11.0186V2.85667H13.7732V0H22.0371V8.57H19.2825V11.4267H16.5279V14.2833H19.2825V17.14H22.0371V25.71H13.7732V22.8533H11.0186V19.9967H8.26393V25.71H0V0ZM55.0929 0H63.3568V5.71333H66.1114V2.85667H68.8661V0H77.13V8.57H74.3754V11.4267H71.6207V14.2833H74.3754V17.14H77.13V25.71H68.8661V22.8533H66.1114V19.9967H63.3568V25.71H55.0929V0ZM24.7918 0H33.0557V25.71H24.7918V0ZM44.0743 0H38.565V2.85667H35.8104V22.8533H38.565V25.71H44.0743H52.3382V17.14H44.0743V8.57H52.3382V0H44.0743Z"
+fill="white"></path>
+</svg>`;
+        btn.title = 'Load Kick';
+        btn.display = 'block'
         btn.onclick = loadPlayer;
         navMenu.insertBefore(btn, navMenu.firstChild)
     }
