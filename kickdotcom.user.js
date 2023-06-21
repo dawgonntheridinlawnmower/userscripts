@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         UGH Kick
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Make Twitch play Kick's livestream.
 // @author       Someone
 // @match        *://twitch.tv/xqc
 // @match        *://*.twitch.tv/xqc
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
-// @updateURL    https://github.com/dawgonntheridinlawnmower/userscripts/raw/main/kickdotcom.user.js
-// @downloadURL  https://github.com/dawgonntheridinlawnmower/userscripts/raw/main/kickdotcom.user.js
+// @updateURL    https://github.com/dawgonntheridinlawnmower/kick-ttv/releases/latest/download/kickttv.user.js
+// @downloadURL  https://github.com/dawgonntheridinlawnmower/kick-ttv/releases/latest/download/kickttv.user.js
 // ==/UserScript==
 
 (function () {
