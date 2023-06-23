@@ -8,8 +8,8 @@
 // @match        *://*.twitch.tv/xqc
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
-// @updateURL    https://github.com/dawgonntheridinlawnmower/kick-ttv/releases/latest/download/kickttv.user.js
-// @downloadURL  https://github.com/dawgonntheridinlawnmower/kick-ttv/releases/latest/download/kickttv.user.js
+// @updateURL    https://github.com/dawgontheridinlawnmower/kick-ttv/releases/latest/download/kickttv.user.js
+// @downloadURL  https://github.com/dawgontheridinlawnmower/kick-ttv/releases/latest/download/kickttv.user.js
 // ==/UserScript==
 
 (function () {
